@@ -1,7 +1,7 @@
 import { forwardRef } from 'react'
 import { Box, Spinner } from '@chakra-ui/react'
 
-const DonutSpinner = () => (
+export const DonutSpinner = () => (
   <Spinner
     size="xl"
     position="absolute"
@@ -12,7 +12,7 @@ const DonutSpinner = () => (
   />
 )
 
-const DonutContainer = forwardRef(({ children }, ref) => (
+export const DonutContainer = forwardRef(({ children }, ref) => (
   <Box
     ref={ref}
     className="voxel-donut"
