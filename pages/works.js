@@ -30,7 +30,7 @@ const Works = () => {
               technology.
             </WorkGridItem>
             <WorkGridItem
-              id="gcp-site"
+              id="gcp"
               title="Great Canadian Pizza Website"
               thumbnail={gcpSite}
             >

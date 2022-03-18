@@ -6,6 +6,10 @@ import {
   Heading,
   Image,
   Link,
+  List,
+  ListItem,
+  SimpleGrid,
+  Icon,
   useColorModeValue,
 } from "@chakra-ui/react";
 import Paragraph from "../components/paragraph";
@@ -13,6 +17,8 @@ import Section from "../components/section";
 import NextLink from "next/link";
 import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
+import { GridItem } from '../components/grid-item';
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord } from 'react-icons/io5';
 
 const Page = () => {
   return (
@@ -111,6 +117,35 @@ const Page = () => {
             Web-Design/Development (Full-Stack), Video Games
           </Paragraph>
         </Section>
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            On The Web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://www.github.com/tavaresjaime00" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>@tavaresjaime00</Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://www.twitter.com/jaimetavares00" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>@jaimetavares00</Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://www.instagram.com/jaime.css" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>@jaime.css</Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://www.discordapp.com/users/532904981372731392" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoDiscord} />}>@jaytav#6405</Button>
+              </Link>
+            </ListItem>
+          </List>
+        </Section>
+
       </Container>
     </Layout>
   );
