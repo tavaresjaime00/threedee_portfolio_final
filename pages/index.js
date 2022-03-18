@@ -73,7 +73,7 @@ const Page = () => {
             general-technology.
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="/works">
+            <NextLink href="/works" passHref>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My Portfolio
               </Button>
@@ -96,7 +96,7 @@ const Page = () => {
           <BioSection>
             <BioYear>2016 to Present</BioYear>
             Worked at Great Canadian Pizza as Team-Member and{" "}
-            <Link href="https://www.greatcanadianpizza.ca">
+            <Link href="https://www.greatcanadianpizza.ca" passHref>
               Wordpress/Technology-Manager
             </Link>
           </BioSection>
@@ -124,22 +124,22 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://www.github.com/tavaresjaime00" target="_blank">
+              <Link href="https://www.github.com/tavaresjaime00" target="_blank" passHref>
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>@tavaresjaime00</Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.twitter.com/jaimetavares00" target="_blank">
+              <Link href="https://www.twitter.com/jaimetavares00" target="_blank" passHref>
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>@jaimetavares00</Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.instagram.com/jaime.css" target="_blank">
+              <Link href="https://www.instagram.com/jaime.css" target="_blank" passHref>
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>@jaime.css</Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.discordapp.com/users/532904981372731392" target="_blank">
+              <Link href="https://www.discordapp.com/users/532904981372731392" target="_blank" passHref>
                 <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoDiscord} />}>@jaytav#6405</Button>
               </Link>
             </ListItem>
