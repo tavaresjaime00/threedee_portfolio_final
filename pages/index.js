@@ -104,16 +104,16 @@ const Page = () => {
             Born in Ontario, Canada.
           </BioSection>
           <BioSection>
-            <BioYear>2018</BioYear>
-            Completed Ontario Secondary School Diploma at Loyola Catholic
-            School.
-          </BioSection>
-          <BioSection>
             <BioYear>2016 to Present</BioYear>
             Worked at Great Canadian Pizza as Team-Member and{" "}
             <Link href="https://www.greatcanadianpizza.ca" passHref>
               Wordpress/Technology-Manager
             </Link>
+          </BioSection>
+          <BioSection>
+            <BioYear>2018</BioYear>
+            Completed Ontario Secondary School Diploma at Loyola Catholic
+            School.
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
