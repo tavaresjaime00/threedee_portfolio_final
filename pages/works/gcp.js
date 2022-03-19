@@ -12,7 +12,7 @@ const Work = () => {
           Great Canadian Pizza <Badge>2016 to Present</Badge>
         </Title>
         <P>
-          For 5+ years, I have managed this client's website, forming strong
+          For 5+ years, I have managed this client-website, forming strong
           relationships with all personnel, and communicating to make changes to
           the sites quickly and efficiently, including the implementation of a
           brand new Menu-Page design.

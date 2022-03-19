@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Navbar from "../navbar.js";
-import { Box, Container, Spinner } from "@chakra-ui/react";
-import { Router } from "next/router";
+import { Box, Container } from "@chakra-ui/react";
 import VoxelDonutLoader from "../voxel-donut-loader";
 import dynamic from "next/dynamic";
 import Footer from '../footer';

@@ -4,7 +4,7 @@ import NextLink from "next/link";
 
 export const Title = ({ children }) => (
   <Box>
-    <NextLink href="/works">
+    <NextLink href="/works" passHref>
       <Link>Works</Link>
     </NextLink>
     <span>

@@ -8,7 +8,6 @@ import {
   Link,
   List,
   ListItem,
-  SimpleGrid,
   Icon,
   useColorModeValue,
 } from "@chakra-ui/react";
@@ -17,7 +16,6 @@ import Section from "../components/section";
 import NextLink from "next/link";
 import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
-import { GridItem } from "../components/grid-item";
 import {
   IoLogoTwitter,
   IoLogoInstagram,

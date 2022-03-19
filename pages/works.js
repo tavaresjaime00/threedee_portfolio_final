@@ -1,12 +1,7 @@
 import {
   Container,
-  Box,
   Heading,
   SimpleGrid,
-  Divider,
-  useColorModeValue,
-  useColorMode,
-  useColorModePreference,
 } from "@chakra-ui/react";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
@@ -34,7 +29,7 @@ const Works = () => {
               title="Great Canadian Pizza Website"
               thumbnail={gcpSite}
             >
-              For 5+ years, I have managed this client's website, forming strong
+              For 5+ years, I have managed this client-website, forming strong
               relationships with all personnel, and communicating to make
               changes to the sites quickly and efficiently, including the
               implementation of a brand new Menu-Page design.
