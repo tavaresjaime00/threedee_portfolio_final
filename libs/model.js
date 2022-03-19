@@ -7,10 +7,11 @@ export function loadGLTFModel(
 ) {
   const { recieveShadow, castShadow } = options;
   return new Promise((resolve, reject) => {
-    var loader = new GLTFLoader();
-    loader.load(glbPath, function (gltf) {
+    const loader = new GLTFLoader();
+
+    loader.load(glbPath, gltf => {
       var obj = gltf.scene;
-      obj.name = "dog";
+      obj.name = "donut";
       obj.position.y = 0;
       obj.position.x = 0;
       obj.receiveShadow = recieveShadow;

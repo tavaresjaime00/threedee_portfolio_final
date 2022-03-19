@@ -17,8 +17,13 @@ import Section from "../components/section";
 import NextLink from "next/link";
 import { BioSection, BioYear } from "../components/bio";
 import Layout from "../components/layouts/article";
-import { GridItem } from '../components/grid-item';
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord } from 'react-icons/io5';
+import { GridItem } from "../components/grid-item";
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoDiscord,
+} from "react-icons/io5";
 
 const Page = () => {
   return (
@@ -43,22 +48,34 @@ const Page = () => {
               Digital Freelancer ( Student / Webmaster / Info-Sys. Engineer )
             </p>
           </Box>
+
           <Box
             flexShrink={0}
             mt={{ base: 4, md: 0 }}
             ml={{ md: 6 }}
             align="center"
           >
-            <Image
+            <Box
               borderColor="whiteAlpha.800"
               borderWidth={2}
               borderStyle="solid"
-              maxWidth="100px"
+              w="100px"
+              h="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/jaime.png"
-              alt="Profile"
-            />
+              overflow="hidden"
+            >
+              <Image
+                borderColor="whiteAlpha.800"
+                borderWidth={2}
+                borderStyle="solid"
+                maxWidth="100px"
+                display="inline-block"
+                borderRadius="full"
+                src="/images/jaime.png"
+                alt="Profile"
+              />
+            </Box>
           </Box>
         </Box>
         <Section delay={0.1}>
@@ -124,30 +141,71 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://www.github.com/tavaresjaime00" target="_blank" passHref>
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>@tavaresjaime00</Button>
+              <Link
+                href="https://www.github.com/tavaresjaime00"
+                target="_blank"
+                passHref
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  @tavaresjaime00
+                </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.twitter.com/jaimetavares00" target="_blank" passHref>
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>@jaimetavares00</Button>
+              <Link
+                href="https://www.twitter.com/jaimetavares00"
+                target="_blank"
+                passHref
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoTwitter} />}
+                >
+                  @jaimetavares00
+                </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.instagram.com/jaime.css" target="_blank" passHref>
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>@jaime.css</Button>
+              <Link
+                href="https://www.instagram.com/jaime.css"
+                target="_blank"
+                passHref
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoInstagram} />}
+                >
+                  @jaime.css
+                </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://www.discordapp.com/users/532904981372731392" target="_blank" passHref>
-                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoDiscord} />}>@jaytav#6405</Button>
+              <Link
+                href="https://www.discordapp.com/users/532904981372731392"
+                target="_blank"
+                passHref
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoDiscord} />}
+                >
+                  @jaytav#6405
+                </Button>
               </Link>
             </ListItem>
           </List>
         </Section>
-
       </Container>
     </Layout>
   );
 };
+
 export default Page;
+export { getServerSideProps } from "../components/chakra";

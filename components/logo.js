@@ -23,7 +23,7 @@ const Logo = () => {
     const footPrintImg = '/images/clo.png'
 
     return (
-        <Link href="/">
+        <Link href="/" passHref>
             <a>
                 <LogoBox>
                     <Image src={footPrintImg} width={20} height={20} alt="logo" />

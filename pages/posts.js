@@ -39,4 +39,5 @@ const Posts = () => (
     </Container>
   </Layout>
 );
-export default Posts
+export default Posts;
+export { getServerSideProps } from "../components/chakra";

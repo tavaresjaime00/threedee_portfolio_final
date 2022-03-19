@@ -1,11 +1,11 @@
 {
   "name": "threedee_portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A sample-resume website, created via a a Takuya Matsuyama tutorial on Youtube.",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
+    "start": "next start",
     "prettier": "prettier -write",
     "lint": "next lint"
   },
@@ -13,25 +13,20 @@
   "author": "Jaime Tavares",
   "license": "ISC",
   "dependencies": {
-    "@chakra-ui/icons": "^1.1.7",
-    "@chakra-ui/react": "^1.8.6",
-    "@emotion/react": "^11.8.2",
-    "@emotion/styled": "^11.8.1",
-    "@react-three/drei": "^8.16.7",
-    "@react-three/fiber": "^7.0.26",
-    "framer-motion": "^6.2.8",
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.2",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "framer-motion": "^5.3.0",
     "next": "^12.1.0",
     "react": "^17.0.2",
-    "react-colorful": "^5.5.1",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-    "react-model-viewer": "^0.6.1",
-    "valtio": "^1.4.0"
+    "three": "^0.134.0"
   },
   "devDependencies": {
-    "eslint": "^8.10.0",
-    "eslint-config-next": "^12.1.0",
-    "prettier": "^2.5.1",
-    "three": "^0.138.3"
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^12.0.4",
+    "prettier": "^2.4.1"
   }
 }
