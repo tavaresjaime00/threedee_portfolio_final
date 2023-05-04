@@ -34,7 +34,7 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hello, I&apos;m an Information Systems Engineer based in Canada!
+          Hello, I&apos;m a Digital Engineer based in Canada!
         </Box>
 
         <Box display={{ md: "flex" }}>
@@ -43,7 +43,7 @@ const Page = () => {
               Jaime Tavares
             </Heading>
             <p>
-              Digital Freelancer - Student / Webmaster / Info-Sys. Engineer
+              Student | Information Systems Analyst | Web/App Engineer
             </p>
           </Box>
 
@@ -111,7 +111,13 @@ const Page = () => {
             </Link>
           </BioSection>
           <BioSection>
-            <BioYear>September to December, 2022</BioYear>
+            <BioYear>2018</BioYear>
+            Completed Ontario Secondary School Diploma at Loyola Catholic
+            School.
+          </BioSection>
+
+          <BioSection>
+            <BioYear>2022</BioYear>
             Worked at Newfold Digital (<Link href="https://www.web.com" passHref>
               Web.com
             </Link>, <Link href="https://www.register.com" passHref>
@@ -124,16 +130,11 @@ const Page = () => {
             </Link>
           </BioSection>
           <BioSection>
-            <BioYear>April to September, 2023</BioYear>
+            <BioYear>2023</BioYear>
             Worked freelance for various clients, managing websites, marketing online buisinesses and creating content to publish on social media.
           </BioSection>
           <BioSection>
-            <BioYear>2018</BioYear>
-            Completed Ontario Secondary School Diploma at Loyola Catholic
-            School.
-          </BioSection>
-          <BioSection>
-            <BioYear>December, 2023</BioYear>
+            <BioYear>2023</BioYear>
             Earned Associates Degreee in Information Systems Engineering at
             Sheridan College.
           </BioSection>
