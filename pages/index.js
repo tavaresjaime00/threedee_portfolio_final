@@ -64,12 +64,8 @@ const Page = () => {
               overflow="hidden"
             >
               <Image
-                borderColor="whiteAlpha.800"
-                borderWidth={2}
-                borderStyle="solid"
                 maxWidth="100px"
                 display="inline-block"
-                borderRadius="full"
                 src="/images/logo1.png"
                 alt="Profile"
               />
