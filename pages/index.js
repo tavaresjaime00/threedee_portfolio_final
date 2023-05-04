@@ -43,7 +43,7 @@ const Page = () => {
               Jaime Tavares
             </Heading>
             <p>
-              Digital Freelancer ( Student / Webmaster / Info-Sys. Engineer )
+              Digital Freelancer - Student / Webmaster / Info-Sys. Engineer
             </p>
           </Box>
 
@@ -104,11 +104,28 @@ const Page = () => {
             Born in Ontario, Canada.
           </BioSection>
           <BioSection>
-            <BioYear>2016 to Present</BioYear>
+            <BioYear>2016 to 2022</BioYear>
             Worked at Great Canadian Pizza as Team-Member and{" "}
             <Link href="https://www.greatcanadianpizza.ca" passHref>
               Wordpress/Technology-Manager
             </Link>
+          </BioSection>
+          <BioSection>
+            <BioYear>September to December, 2022</BioYear>
+            Worked at Newfold Digital (<Link href="https://www.web.com" passHref>
+              Web.com
+            </Link>, <Link href="https://www.register.com" passHref>
+              Register.com
+            </Link>, & <Link href="https://www.networksolutions.com" passHref>
+              NetworkSolutions.com
+            </Link>) as a Pro Modifications Specialist.
+            <Link href="https://www.greatcanadianpizza.ca" passHref>
+              Wordpress/Technology-Manager
+            </Link>
+          </BioSection>
+          <BioSection>
+            <BioYear>April to September, 2023</BioYear>
+            Worked freelance for various clients, managing websites, marketing online buisinesses and creating content to publish on social media.
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
@@ -116,8 +133,8 @@ const Page = () => {
             School.
           </BioSection>
           <BioSection>
-            <BioYear>2023</BioYear>
-            Completed Advanced Diploma in Information Systems Engineering at
+            <BioYear>December, 2023</BioYear>
+            Earned Associates Degreee in Information Systems Engineering at
             Sheridan College.
           </BioSection>
         </Section>
@@ -127,9 +144,9 @@ const Page = () => {
             I &#10084;
           </Heading>
           <Paragraph>
-            Learning, Music, Saxophone-Practice, Crafts,{" "}
+            Learning, Music, Saxophone-Practice, Crafts, Video Games{" "}
             <Link href="www.github.com/tavaresjaime00">Programming</Link>,
-            Web-Design/Development (Full-Stack), Video Games
+            Web & App Design/Development (Full-Stack), Data Science, AI, AR
           </Paragraph>
         </Section>
 

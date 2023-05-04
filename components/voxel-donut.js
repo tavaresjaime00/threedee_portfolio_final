@@ -53,7 +53,7 @@ const VoxelDonut = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.5 + 4.8;
+      const scale = scH * 0.05 + 4.8;
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -74,7 +74,7 @@ const VoxelDonut = () => {
       controls.target = target;
       setControls(controls);
 
-      loadGLTFModel(scene, "images/3d/c.glb", {
+      loadGLTFModel(scene, "images/3d/coding.glb", {
         receiveShadow: false,
         castShadow: false,
       }).then(() => {
