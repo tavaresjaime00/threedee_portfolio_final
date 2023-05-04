@@ -52,8 +52,8 @@ const Page = () => {
             align="center"
           >
             <Box
-              w="100px"
-              h="100px"
+              w="150px"
+              h="150px"
               display="inline-block"
               overflow="hidden"
             >
