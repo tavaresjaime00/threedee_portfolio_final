@@ -20,7 +20,7 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-    const footPrintImg = '/images/logo_noback.png'
+    const footPrintImg = '/images/logo.png'
 
     return (
         <Link href="/" passHref>
