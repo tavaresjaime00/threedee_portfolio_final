@@ -74,7 +74,7 @@ const VoxelDonut = () => {
       controls.target = target;
       setControls(controls);
 
-      loadGLTFModel(scene, "images/3d/code.glb", {
+      loadGLTFModel(scene, "images/3d/c.glb", {
         receiveShadow: false,
         castShadow: false,
       }).then(() => {
