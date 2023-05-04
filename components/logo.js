@@ -8,7 +8,7 @@ const LogoBox = styled.span`
     font-size: 18px;
     display: inline-flex;
     align-items: center;
-    height; 30px;
+    height; 100px;
     line-height: 20px;
     padding: 10px;
     img {
@@ -26,7 +26,7 @@ const Logo = () => {
         <Link href="/" passHref>
             <a>
                 <LogoBox>
-                    <Image src={footPrintImg} width={20} height={20} alt="logo" />
+                    <Image src={footPrintImg} width={100} height={100} alt="logo" />
                     <Text color={useColorModeValue('gray.800', 'whiteAlpha.900')} fontFamily="M PLUS Rounded 1c" fontWeight="bold" ml={3}>
                         Jaime Tavares
                     </Text>
