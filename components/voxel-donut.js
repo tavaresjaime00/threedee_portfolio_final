@@ -53,7 +53,7 @@ const VoxelDonut = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.05 + 4.8;
+      const scale = scH * 0.03 + 4.8;
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
