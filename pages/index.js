@@ -58,7 +58,7 @@ const Page = () => {
               overflow="hidden"
             >
               <Image
-                maxWidth="100px"
+                maxWidth="150px"
                 display="inline-block"
                 src="/images/logo1.png"
                 alt="Profile"
