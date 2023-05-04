@@ -26,7 +26,7 @@ const Logo = () => {
         <Link href="/" passHref>
             <a>
                 <LogoBox>
-                    <Image src={footPrintImg} width={100} height={100} alt="logo" />
+                    <Image src={footPrintImg} width={50} height={50} alt="logo" />
                     <Text color={useColorModeValue('gray.800', 'whiteAlpha.900')} fontFamily="M PLUS Rounded 1c" fontWeight="bold" ml={3}>
                         Jaime Tavares
                     </Text>
